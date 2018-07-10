@@ -14,11 +14,11 @@
 #import <AVFoundation/AVFoundation.h>
 
 @interface EDVSongsListTableViewController ()  <NSURLSessionDelegate>
+
 // Объект-плеер
 @property (nonatomic, strong) AVPlayer *player;
 // Массив для песен
 @property (nonatomic, strong) NSArray *songs;
-
 
 @end
 
@@ -37,6 +37,7 @@
     // Dispose of any resources that can be recreated.
 }
 
+// Refresh for scroll views content
 -(void) refreshSongs {
     __weak typeof(self) weakSelf = self;
     [EDVNetworkService fetchAllSongsByName:@"Muse" completion:^(NSArray *songs) {
