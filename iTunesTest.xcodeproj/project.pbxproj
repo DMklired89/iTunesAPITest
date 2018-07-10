@@ -9,10 +9,16 @@
 /* Begin PBXBuildFile section */
 		E00D28BD20A7521B0060CD2D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E00D28BC20A7521B0060CD2D /* main.m */; };
 		E00D28C020A7521B0060CD2D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E00D28BF20A7521B0060CD2D /* AppDelegate.m */; };
-		E00D28C320A7521B0060CD2D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E00D28C220A7521B0060CD2D /* ViewController.m */; };
 		E00D28C620A7521B0060CD2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E00D28C420A7521B0060CD2D /* Main.storyboard */; };
 		E00D28C820A7521C0060CD2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E00D28C720A7521C0060CD2D /* Assets.xcassets */; };
 		E00D28CB20A7521C0060CD2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E00D28C920A7521C0060CD2D /* LaunchScreen.storyboard */; };
+		E0178C7620ACA3040002E0D3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0178C7520ACA3040002E0D3 /* AVFoundation.framework */; };
+		E036D75F20F50F2E001E78EB /* EDVNetworkService.m in Sources */ = {isa = PBXBuildFile; fileRef = E036D75E20F50F2E001E78EB /* EDVNetworkService.m */; };
+		E036D76220F51A03001E78EB /* EDVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E036D76120F51A03001E78EB /* EDVViewController.m */; };
+		E048FDB720A84A27000505BD /* EDVSong.m in Sources */ = {isa = PBXBuildFile; fileRef = E048FDB620A84A27000505BD /* EDVSong.m */; };
+		E048FDBA20A84F4E000505BD /* EDVTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E048FDB920A84F4E000505BD /* EDVTableViewCell.m */; };
+		E048FDBD20A873F2000505BD /* EDVSongsListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E048FDBC20A873F2000505BD /* EDVSongsListTableViewController.m */; };
+		E048FDE920AB0B32000505BD /* EDVSongsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E048FDE820AB0B32000505BD /* EDVSongsDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +26,23 @@
 		E00D28BC20A7521B0060CD2D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E00D28BE20A7521B0060CD2D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E00D28BF20A7521B0060CD2D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E00D28C120A7521B0060CD2D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E00D28C220A7521B0060CD2D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E00D28C520A7521B0060CD2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E00D28C720A7521C0060CD2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E00D28CA20A7521C0060CD2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E00D28CC20A7521C0060CD2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0178C7520ACA3040002E0D3 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E036D75D20F50F2E001E78EB /* EDVNetworkService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDVNetworkService.h; sourceTree = "<group>"; };
+		E036D75E20F50F2E001E78EB /* EDVNetworkService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDVNetworkService.m; sourceTree = "<group>"; };
+		E036D76020F51A03001E78EB /* EDVViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDVViewController.h; sourceTree = "<group>"; };
+		E036D76120F51A03001E78EB /* EDVViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDVViewController.m; sourceTree = "<group>"; };
+		E048FDB520A84A27000505BD /* EDVSong.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDVSong.h; sourceTree = "<group>"; };
+		E048FDB620A84A27000505BD /* EDVSong.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDVSong.m; sourceTree = "<group>"; };
+		E048FDB820A84F4E000505BD /* EDVTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDVTableViewCell.h; sourceTree = "<group>"; };
+		E048FDB920A84F4E000505BD /* EDVTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDVTableViewCell.m; sourceTree = "<group>"; };
+		E048FDBB20A873F2000505BD /* EDVSongsListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDVSongsListTableViewController.h; sourceTree = "<group>"; };
+		E048FDBC20A873F2000505BD /* EDVSongsListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDVSongsListTableViewController.m; sourceTree = "<group>"; };
+		E048FDE720AB0B32000505BD /* EDVSongsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDVSongsDetailViewController.h; sourceTree = "<group>"; };
+		E048FDE820AB0B32000505BD /* EDVSongsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDVSongsDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +50,77 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0178C7620ACA3040002E0D3 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E00CE49220AF39C700888DAA /* Songs Table */ = {
+			isa = PBXGroup;
+			children = (
+				E048FDBB20A873F2000505BD /* EDVSongsListTableViewController.h */,
+				E048FDBC20A873F2000505BD /* EDVSongsListTableViewController.m */,
+				E048FDB820A84F4E000505BD /* EDVTableViewCell.h */,
+				E048FDB920A84F4E000505BD /* EDVTableViewCell.m */,
+			);
+			name = "Songs Table";
+			sourceTree = "<group>";
+		};
+		E00CE49320AF39F400888DAA /* Songs Detail */ = {
+			isa = PBXGroup;
+			children = (
+				E048FDE720AB0B32000505BD /* EDVSongsDetailViewController.h */,
+				E048FDE820AB0B32000505BD /* EDVSongsDetailViewController.m */,
+			);
+			name = "Songs Detail";
+			sourceTree = "<group>";
+		};
+		E00CE49420AF3A5C00888DAA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E048FDB520A84A27000505BD /* EDVSong.h */,
+				E048FDB620A84A27000505BD /* EDVSong.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E00CE49520AF3AF300888DAA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E036D75D20F50F2E001E78EB /* EDVNetworkService.h */,
+				E036D75E20F50F2E001E78EB /* EDVNetworkService.m */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		E00CE49620AF3B0200888DAA /* App */ = {
+			isa = PBXGroup;
+			children = (
+				E00D28BE20A7521B0060CD2D /* AppDelegate.h */,
+				E00D28BF20A7521B0060CD2D /* AppDelegate.m */,
+				E036D76020F51A03001E78EB /* EDVViewController.h */,
+				E036D76120F51A03001E78EB /* EDVViewController.m */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		E00CE49720AF3B2400888DAA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E00D28C420A7521B0060CD2D /* Main.storyboard */,
+				E00D28C920A7521C0060CD2D /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		E00D28AF20A7521A0060CD2D = {
 			isa = PBXGroup;
 			children = (
 				E00D28BA20A7521B0060CD2D /* iTunesTest */,
 				E00D28B920A7521B0060CD2D /* Products */,
+				E0178C7420ACA3030002E0D3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +135,13 @@
 		E00D28BA20A7521B0060CD2D /* iTunesTest */ = {
 			isa = PBXGroup;
 			children = (
-				E00D28BE20A7521B0060CD2D /* AppDelegate.h */,
-				E00D28BF20A7521B0060CD2D /* AppDelegate.m */,
-				E00D28C120A7521B0060CD2D /* ViewController.h */,
-				E00D28C220A7521B0060CD2D /* ViewController.m */,
-				E00D28C420A7521B0060CD2D /* Main.storyboard */,
+				E00CE49620AF3B0200888DAA /* App */,
+				E00CE49520AF3AF300888DAA /* Services */,
+				E00CE49420AF3A5C00888DAA /* Model */,
+				E00CE49220AF39C700888DAA /* Songs Table */,
+				E00CE49320AF39F400888DAA /* Songs Detail */,
+				E00CE49720AF3B2400888DAA /* View */,
 				E00D28C720A7521C0060CD2D /* Assets.xcassets */,
-				E00D28C920A7521C0060CD2D /* LaunchScreen.storyboard */,
 				E00D28CC20A7521C0060CD2D /* Info.plist */,
 				E00D28BB20A7521B0060CD2D /* Supporting Files */,
 			);
@@ -77,6 +154,14 @@
 				E00D28BC20A7521B0060CD2D /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E0178C7420ACA3030002E0D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0178C7520ACA3040002E0D3 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,8 +235,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E00D28C320A7521B0060CD2D /* ViewController.m in Sources */,
+				E036D75F20F50F2E001E78EB /* EDVNetworkService.m in Sources */,
+				E048FDBD20A873F2000505BD /* EDVSongsListTableViewController.m in Sources */,
+				E048FDE920AB0B32000505BD /* EDVSongsDetailViewController.m in Sources */,
+				E048FDB720A84A27000505BD /* EDVSong.m in Sources */,
+				E036D76220F51A03001E78EB /* EDVViewController.m in Sources */,
 				E00D28C020A7521B0060CD2D /* AppDelegate.m in Sources */,
+				E048FDBA20A84F4E000505BD /* EDVTableViewCell.m in Sources */,
 				E00D28BD20A7521B0060CD2D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -307,6 +397,7 @@
 				E00D28D120A7521C0060CD2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
